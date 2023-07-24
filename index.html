@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,12 +39,112 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "primary-color": "#B68C5A",
+            },
+            backgroundImage: {
+              "bg-image": "url(./images/banner.png)",
             },
           },
         },
       };
     </script>
+
+    <!-- Font awesome  -->
+
+    <script
+      src="https://kit.fontawesome.com/83b4fe29a5.js"
+      crossorigin="anonymous"></script>
   </head>
 
-  <body></body>
+  <body>
+    <header class="container mx-auto">
+      <!-- Navbar -->
+
+      <div class="navbar my-12">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <img src="images/logo2.png" alt="" />
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-poppins">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Services <i class="fa-solid fa-angle-right"></i></a>
+            </li>
+            <li>
+              <a href="">Cases <i class="fa-solid fa-angle-right"></i></a>
+            </li>
+            <li>
+              <a href="">Blog <i class="fa-solid fa-angle-right"></i></a>
+            </li>
+            <li>
+              <a href="">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            class="btn bg-primary-color text-white md:text-lg font-semibold hover:bg-[#916934]"
+            >Free Consultation</a
+          >
+        </div>
+      </div>
+
+      <!-- Banner Section -->
+
+      <div class="hero min-h-[calc(100vh-164px)] bg-bg-image px-3 md:px-0">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="text-center text-white">
+          <div class="max-w-[668px]">
+            <h1 class="mb-6 text-5xl md:text-7xl font-extrabold font-garamod">
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="mb-8 font-poppins">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div class="flex justify-center items-center gap-6">
+              <input
+                type="text"
+                placeholder="Search your services"
+                class="input input-bordered w-full max-w-xs" />
+              <button
+                class="btn bg-primary-color rounded-lg border-none text-white">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>

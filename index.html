@@ -442,7 +442,7 @@
 
         <!-- FAQ Container  -->
 
-        <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex flex-col lg:flex-row gap-8">
           <!-- Questions -->
           <div>
             <div class="collapse collapse-plus bg-[#F3F3F3] mb-8 p-8">
@@ -502,7 +502,123 @@
           <img src="./images/faq.png" alt="" />
         </div>
       </section>
+
+      <!-- Contact us -->
+
+      <section class="mt-28">
+        <div class="text-center mb-16">
+            <h2 class="font-garamond text-4xl font-extrabold mb-6">
+                Contact With Us
+            </h2>
+            <p class="font-poppins max-w-[700px] mx-auto">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+            </p>
+          </div>
+
+          <!-- Flex container -->
+          <div class="flex flex-col lg:flex-row gap-8">
+
+            <!-- Grid Container -->
+
+            <div class="grid grid-cols-1 md:grid-cols-2 mx-4 md:mx-0 flex-1">
+
+                <!-- Card 1 -->
+                <div class="card card-compact bg-[#F3F3F3] rounded-none p-12 border-b md:border-r">
+                    <figure><img src="./images/location.png" alt="Shoes" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="font-garamond text-2xl text-[#414040] font-extrabold">Address</h2>
+                      <p class="text-[#707070]">A108 Adam Street, <br>
+                        New York, NY 535022</p>
+                      
+                    </div>
+                  </div>
+
+                <!-- Card 2 -->
+                <div class="card card-compact bg-[#F3F3F3] rounded-none p-12 border-b">
+                    <figure><img src="./images/call.png" alt="Shoes" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="font-garamond text-2xl text-[#414040] font-extrabold">Call Us</h2>
+                      <p class="text-[#707070]">+88 01750 00 00 00 <br>
+                        +88 01750 00 00 00</p>
+                      
+                    </div>
+                  </div>
+
+                <!-- Card 3 -->
+                <div class="card card-compact bg-[#F3F3F3] rounded-none p-12 border-b md:border-b-0 md:border-r">
+                    <figure><img src="./images/email.png" alt="Shoes" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="font-garamond text-2xl text-[#414040] font-extrabold">Email Us</h2>
+                      <p class="text-[#707070]">info@gmail.com <br>
+                        info@gmail.com</p>
+                      
+                    </div>
+                  </div>
+
+                <!-- Card 1 -->
+                <div class="card card-compact bg-[#F3F3F3] rounded-none p-12">
+                    <figure><img src="./images/location.png" alt="Shoes" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="font-garamond text-2xl text-[#414040] font-extrabold">Address</h2>
+                      <p class="text-[#707070]">A108 Adam Street, <br>
+                        New York, NY 535022</p>
+                      
+                    </div>
+                  </div>
+            </div>
+
+            <div class="flex flex-col flex-1 font-poppins px-4 md:px-0">
+                <input type="text" placeholder="Your Name" class="h-[72px] input w-full max-w-full mb-8 bg-[#F3F3F3]" />
+                <input type="text" placeholder="Your Email" class="h-[72px] input w-full max-w-full mb-8 bg-[#F3F3F3]" />
+                <input type="text" placeholder="Subject" class="h-[72px] input w-full max-w-full mb-8 bg-[#F3F3F3]" />
+                <textarea class="textarea bg-[#F3F3F3] h-[162px] mb-8" placeholder="Your Message"></textarea>
+
+                <a
+            class="btn bg-primary-color text-white text-xl font-semibold hover:bg-[#916934]"
+            >Send Message</a>
+            </div>
+          </div>
+      </section>
+
+      </section>
     </main>
-    <footer></footer>
+    
+    <footer class="footer py-10 lg:py-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-16 bg-black text-base-content mt-[120px] text-white px-4 lg:px-[200px]">
+
+        <div>
+            <img src="./images/logo.png" alt="">
+            <p class="lg:max-w-[250px]">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+            </p>
+        </div>
+        <div>
+          <span class="font-garamond text-2xl font-extrabold">Useful Link</span> 
+          <a class="link link-hover">Homes</a> 
+          <a class="link link-hover">About Us</a> 
+          <a class="link link-hover">Cases</a> 
+          <a class="link link-hover">Blog</a>
+          <a class="link link-hover">Contact Us</a>
+        </div> 
+        <div>
+          <span class="font-garamond text-2xl font-extrabold">Contact Now</span> 
+          <a class="link link-hover">555 4th 5t NW, Washington <br>
+            DC 20530, United States</a> 
+          <a class="link link-hover">+88 01750 000 000 <br>
+            +88 01750 000 000</a> 
+          <a class="link link-hover">info@gmail.com <br>
+            info@gmail.com</a> 
+          
+        </div> 
+        <div>
+          <span class="font-garamond text-2xl font-extrabold">Subscribe</span> 
+          <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+          <div class="form-control w-80">
+            <div class="relative">
+              <input type="text" placeholder="Email Address" class="input input-bordered w-full pr-16" /> 
+              <button class="btn bg-primary-color absolute top-0 right-0 rounded-l-none"><i class="fa-regular text-white fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>
